@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="strutture">
+		<xs:complexType>
+			<xs:sequence>
+
+				<xs:element name="struttura" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+
+							<xs:element name="comune" type="xs:string"/>
+							<xs:element name="provincia" type="xs:string"/>
+							<xs:element name="denominazione_struttura" type="xs:string"/>
+							<xs:element name="categoria" type="xs:string"/>
+
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

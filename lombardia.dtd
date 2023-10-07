@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<!DOCTYPE strutture [
+<!ELEMENT strutture (struttura+)>
+<!ELEMENT struttura (comune, provincia, denominazione_struttura, categoria)>
+<!ATTLIST struttura id CDATA #REQUIRED >
+<!ELEMENT comune (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT denominazione_struttura (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+]>
+-->
