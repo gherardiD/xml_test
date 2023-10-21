@@ -14,9 +14,9 @@
 
   <struttura id='197290265'>
     <comune>ALMENNO SAN SALVATORE</comune>
-    <provincia>"BERGAMO"</provincia>
+    <provincia>BERGAMO</provincia>
     <denominazione_struttura>HOTEL 5 VIE</denominazione_struttura>
-    <categoria>"Alberghiere"</categoria>
+    <categoria>Alberghiere</categoria>
   </struttura>
 
   <struttura id='308067537'>
@@ -32,5 +32,4 @@
     <denominazione_struttura>CASA BELVEDERE (BOCKLER CLAUDIA)</denominazione_struttura>
     <categoria>Complementari</categoria>
   </struttura>
-
 </strutture>
