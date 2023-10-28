@@ -4,7 +4,10 @@
 <!ELEMENT strutture (struttura+)>
 <!ELEMENT struttura (comune, provincia, denominazione_struttura, categoria)>
 <!ATTLIST struttura id CDATA #REQUIRED >
-<!ELEMENT comune (#PCDATA)>
+<!ELEMENT comune (nome, classe)> 
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT classe (#PCDATA)>
+<!ATTLIST classe nome CDATA #REQUIRED >
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT denominazione_struttura (#PCDATA)>
 <!ELEMENT categoria (#PCDATA)>

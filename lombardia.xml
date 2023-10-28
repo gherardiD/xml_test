@@ -6,30 +6,48 @@
 <strutture>
 
   <struttura id='197290732'>
-    <comune>ANGERA</comune>
+    <comune>
+      <nome>ANGERA</nome>
+      <classe nome='daniele'></classe>
+    </comune>
     <provincia>VARESE</provincia>
     <denominazione_struttura>ALBERGO PAVONE</denominazione_struttura>
     <categoria>Alberghiere</categoria>
+    
   </struttura>
 
   <struttura id='197290265'>
-    <comune>ALMENNO SAN SALVATORE</comune>
+    <comune>
+      <nome>ALMENNO SAN SALVATORE</nome>
+      
+      <classe nome='daniele'></classe>
+    </comune>
     <provincia>BERGAMO</provincia>
     <denominazione_struttura>HOTEL 5 VIE</denominazione_struttura>
     <categoria>Alberghiere</categoria>
+    
   </struttura>
 
   <struttura id='308067537'>
-    <comune>SAN GIOVANNI BIANCO</comune>
+    <comune>
+      <nome>SAN GIOVANNI BIANCO</nome>
+      
+      <classe nome='daniele'></classe>
+    </comune>
     <provincia>BERGAMO</provincia>
     <denominazione_struttura>AZIENDA AGRITURISTICA CASCINA GERVASONI</denominazione_struttura>
     <categoria>Complementari</categoria>
+    
   </struttura>
 
   <struttura id='388905103'>
-    <comune>TIGNALE</comune>
+    <comune>
+      <nome>TIGNALE</nome>
+      <classe nome='daniele'></classe>
+    </comune>
     <provincia>BRESCIA</provincia>
     <denominazione_struttura>CASA BELVEDERE (BOCKLER CLAUDIA)</denominazione_struttura>
     <categoria>Complementari</categoria>
+    
   </struttura>
 </strutture>

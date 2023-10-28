@@ -28,23 +28,35 @@
           .struttura p {
             margin: 0;
           }
+          .struttura .bold {
+            font-weight: 600;
+          }
           .struttura hr {
             border: none;
             border-top: 1px solid #0000FF;
             margin-top: 10px;
           }
+          .creator {
+            font-size: 0.8em;
+            color: #999;
+            font-style: italic;
+          }
         </style>
       </head>
+
       <body>
         <h1>STRUTTURE RICETTIVE IN LOMBARDIA</h1>
         <xsl:for-each select="strutture/struttura">
           <div class="struttura">
-            <p>ID: <xsl:value-of select="@id"/></p>
-            <p>COMUNE: <xsl:value-of select="comune"/></p>
-            <p>PROVINCIA: <xsl:value-of select="provincia"/></p>
-            <p>DENOMINAZIONE STRUTTURA: <xsl:value-of select="denominazione_struttura"/></p>
-            <p>CATEGORIA: <xsl:value-of select="categoria"/></p>
+            <p><span class='bold'>ID:</span> <xsl:value-of select="@id"/></p>
+            <p><span class='bold'>COMUNE:</span> <xsl:value-of select="comune/nome"/></p>
+            <p><span class='bold'>PROVINCIA:</span> <xsl:value-of select="provincia"/></p>
+            <p><span class='bold'>DENOMINAZIONE STRUTTURA:</span> <xsl:value-of select="denominazione_struttura"/></p>
+            <p><span class='bold'>CATEGORIA:</span> <xsl:value-of select="categoria"/></p>
             <hr/>
+            <span class='creator'>
+              created by <xsl:value-of select="comune/classe/@nome"/>
+            </span>
           </div>
         </xsl:for-each>
       </body>
