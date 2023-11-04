@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.20.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="java_test.Record" id="Record0">
+    <void property="data">
+     <void property="name">
+      <string>comune</string>
+     </void>
+     <void property="value">
+      <string>sedrina</string>
+     </void>
+    </void>
+    <void property="id">
+     <int>197290732</int>
+    </void>
+    <void property="name">
+     <string>struttura</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="java_test.Record" id="Record1">
+    <void property="data">
+     <void property="name">
+      <string>comune</string>
+     </void>
+     <void property="value">
+      <string>sedrina</string>
+     </void>
+    </void>
+    <void property="id">
+     <int>197290265</int>
+    </void>
+    <void property="name">
+     <string>struttura</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="java_test.Record" id="Record2">
+    <void property="data">
+     <void property="name">
+      <string>comune</string>
+     </void>
+     <void property="value">
+      <string>sedrina</string>
+     </void>
+    </void>
+    <void property="id">
+     <int>308067537</int>
+    </void>
+    <void property="name">
+     <string>struttura</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="java_test.Record" id="Record3">
+    <void property="data">
+     <void property="name">
+      <string>comune</string>
+     </void>
+     <void property="value">
+      <string>sedrina</string>
+     </void>
+    </void>
+    <void property="id">
+     <int>388905103</int>
+    </void>
+    <void property="name">
+     <string>struttura</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

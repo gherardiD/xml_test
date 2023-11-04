@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="lombardia.xsl"?>
+<!-- inserire qui sotto contenuto commentato in lombardia.dtd -->
+
+
+<strutture>
+
+  <struttura id='197290732'>
+    <comune>
+      Sedrina
+    </comune>
+    <provincia>VARESE</provincia>
+    <denominazione_struttura>ALBERGO PAVONE</denominazione_struttura>
+    <categoria>Alberghiere</categoria>
+    
+  </struttura>
+
+  <struttura id='197290265'>
+    <comune>
+      Sedrina
+      <classe nome='daniele'></classe>
+    </comune>
+    <provincia>BERGAMO</provincia>
+    <denominazione_struttura>HOTEL 5 VIE</denominazione_struttura>
+    <categoria>Alberghiere</categoria>
+    
+  </struttura>
+
+  <struttura id='308067537'>
+    <comune>
+      Sedrina
+      <classe nome='daniele'></classe>
+    </comune>
+    <provincia>BERGAMO</provincia>
+    <denominazione_struttura>AZIENDA AGRITURISTICA CASCINA GERVASONI</denominazione_struttura>
+    <categoria>Complementari</categoria>
+    
+  </struttura>
+
+  <struttura id='388905103'>
+    <comune>
+      Sedrina
+    </comune>
+    <provincia>BRESCIA</provincia>
+    <denominazione_struttura>CASA BELVEDERE (BOCKLER CLAUDIA)</denominazione_struttura>
+    <categoria>Complementari</categoria>
+    
+  </struttura>
+</strutture>
